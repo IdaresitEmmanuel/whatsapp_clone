@@ -10,6 +10,8 @@ class StatusHomePage extends StatefulWidget {
 class _StatusHomePageState extends State<StatusHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const SizedBox(
+      child: Center(child: Text("Status")),
+    );
   }
 }

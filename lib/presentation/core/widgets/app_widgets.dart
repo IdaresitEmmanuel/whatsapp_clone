@@ -5,6 +5,8 @@ import 'package:whatsappclone/presentation/root/root_page.dart';
 class AppWidgets extends StatelessWidget {
   const AppWidgets({Key? key}) : super(key: key);
 
+  me() {}
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

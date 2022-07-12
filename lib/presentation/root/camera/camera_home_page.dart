@@ -10,6 +10,9 @@ class CameraHomePage extends StatefulWidget {
 class _CameraHomePageState extends State<CameraHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Container(
+      color: Colors.yellow,
+      child: const Center(child: Text("Camera")),
+    );
   }
 }

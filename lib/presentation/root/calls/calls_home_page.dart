@@ -10,6 +10,8 @@ class CallsHomePage extends StatefulWidget {
 class _CallsHomePageState extends State<CallsHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const SizedBox(
+      child: Center(child: Text("Calls")),
+    );
   }
 }

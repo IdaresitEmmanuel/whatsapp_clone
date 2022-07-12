@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
+  static const white = Color(0xFFffffff);
+
   static const appBarBackground = primary;
   static const appBarBackgroundDark = Color(0xFF202c33);
   static const appBarIcon = Color(0xFFffffff);
   static const appBarIconDark = Color(0xFF8696a0);
+
+  static const selectedLabel = white;
+  static const selectedLabelDark = Color(0xFF00a884);
+  static const unselectedLabel = Color(0xFFb3d9d2);
+  static const unselectedLabelDark = Color(0xFF8696a0);
 
   static const scaffoldBackground = Color(0xFFffffff);
   static const scaffoldBackgroundDark = Color(0xFF111b21);
